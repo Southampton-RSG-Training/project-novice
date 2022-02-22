@@ -31,7 +31,7 @@ In industry, they often use formal project management styles for their boards wi
 
 There's a lot of sites that host project boards. For non-software projects like thesis-writing or organising conferences, you might use [Trello](https://trello.com), but repository hosting sites like GitHub and GitLab have built-in project boards that interact with the other features of the site, so we're going to use them (though other tools like [Jira](https://www.atlassian.com/software/jira) also offer this functionality). This episode will use GitHub as an example, but GitLab has almost identical functionality. 
 
-From the 'Project' tab on GitHub, we can start up a board with **Create a new project**. A repository can have multiple project boards on it- for example, if multiple PhD students have their own project working on a code, each can have a project board for their own changes, or you can create a new board for each paper.
+From the 'Project' tab on GitHub, we can start up a board on the repository by switching from the **Projects (Beta)** view to the normal **Projects** view, then clicking **New project**. A repository can have multiple project boards on it - for example, if multiple PhD students have their own project working on a code, each can have a project board for their own changes, or you can create a new board for each paper.
 
 ![Adding boards](../fig/03-boards/board-none.png)
 
@@ -98,7 +98,7 @@ Once your project board has a large number of cards on it, you might want to beg
 
 ## Feature-branch workflows
 
-We discussed feature-branch workflows yesterday, and they're a key part of good project management.
+We discussed feature-branch workflows in the **Version Control with Git** module, and they're a key part of good project management.
 
 ![Feature-branch workflow](../fig/03-boards/git-feature-branch.svg)
 
@@ -111,7 +111,7 @@ There's some best practise associated with the workflow:
 * Only pull from `dev` to `master` when you think `dev` is stable. This is the version people will be downloading to verify the results from your papers.
 
 In industry, there's normally strict testing criteria for when you merge in feature branches or merge `dev` into `master`. 
-That's a lot harder to apply in academia- in an experimental code, there is often no known ideal behaviour to test against,
+That's a lot harder to apply in academia - in an experimental code, there is often no known ideal behaviour to test against,
 and you expect your code's output to change as you alter the equations and assumptions.
 
 
@@ -121,7 +121,7 @@ and you expect your code's output to change as you alter the equations and assum
 
 For some large projects, or open-source projects, it's not practical to have all the collaborators working on the same repository. Multiple different developers might both create branches with the same name, leading to conflicts, and developers can end up with access to dozens of work-in-progress branches they don't know anything about. Others limit the ability of unauthorised users to push to the repository to prevent abuse, or accidental uploads of sensitive or restricted material. In these contexts, it makes more sense for **every collaborator to have their own fork**. Then, once they finish work on a feature branch, they can **submit a pull request back to the original**.
 
-We're going to create a fork of an existing repository- `swc-rf4`. [Go to the repository on GitHub](https://github.com/Southampton-RSG/swc-rf4), and click **Fork**. You can fork a repository to your own account, or any **Team** you have access to. For now, we'll clone a personal copy.
+We're going to create a fork of an existing repository- `project-novice-demo`. This is a demo of a badly-designed and maintained repo for us to explore and critique. [First, go to the demonstration repository on GitHub](https://github.com/Southampton-RSG-Training/project-novice-demo), and click **Fork**. You can fork a repository to your own account, or any **Team** you have access to. For now, we'll make a personal copy.
 
 ![Create a fork](../fig/04-features/fork-button.png)
 
@@ -130,5 +130,17 @@ As you can see, the fork looks and works just like a normal repository, but hand
 ![Created fork](../fig/04-features/fork-made.png)
 
 You may also be able to use forks to create modified versions of existing codes that better suit your needs, depending on their software license. It is good practise to submit your modifications and improvements back to the original, though.
+
+> ## For Future Use...
+>
+> Make sure you've forked [our demonstation repository](https://github.com/Southampton-RSG-Training/project-novice-demo)! We'll be coming back to it in a later episode.
+{: .callout}
+
+### Forks & Issues
+
+By default, forks don't have their own issues - the expectation is you'll create a fork to address issues on the original project. We're going to work independently on our forks, though, so we need to re-enable issues on our fork. Go to our repository's **Settings** tab, then scroll down to **Features** and tick **Issues**.
+
+![Toggled on issues](../fig/04-features/fork-issues.png)
+
 
 {% include links.md %}
