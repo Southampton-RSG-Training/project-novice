@@ -10,7 +10,7 @@ Before we get started, there are a few requirements to meet. You will need:
 
 If you haven't done our **Version Control with Git** training and don't have a `climate-analysis` repository, you can import a copy of it that's up-to-date.
 
-[Go to GitHub](https://github.com) and from the **+** icon on the top bar select **Import Repository** (or [go directly to it here](https://github.com/new/import):
+[Go to GitHub](https://github.com) and from the **+** icon on the top bar select **Import Repository** (or [go directly to it here](https://github.com/new/import)):
 
 ![Import repository option location](fig/setup/import-repository.png)
 

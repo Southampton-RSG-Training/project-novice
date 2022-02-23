@@ -22,21 +22,21 @@ Fortunately, we've already forked it, so we can set up a small project to improv
 
 The first thing we can spot is that there's no `dev` branch - only a `master` one:
 
-![Current branches](../fig/06-project/branch-list.png)
+![Current branches](fig/06-project/branch-list.png)
 
-As we mentioned earlier, this makes it difficult to work as part of a team, or to have a stable version to distribute whilst you continue working on the code. So let's make an Issue for this as we showed in the [Issues](../fig/02-issues/index.html) section:
+As we mentioned earlier, this makes it difficult to work as part of a team, or to have a stable version to distribute whilst you continue working on the code. So let's make an Issue for this as we showed in the [Issues](fig/02-issues/index.html) section:
 
-![Creating an Issue for the dev branch](../fig/06-project/create-issue.png)
+![Creating an Issue for the dev branch](fig/06-project/create-issue.png)
 
-Now we're starting to log issues with our code, we want to be able to keep track of them, so we make a new project board as we showed in the [Project Management](../03-boards/index.html) section:
+Now we're starting to log issues with our code, we want to be able to keep track of them, so we make a new project board as we showed in the [Project Management](03-boards/index.html) section:
 
-![Dragging an Issue onto a project board](../fig/06-project/project-new.png)
-![Dragging an Issue onto a project board](../fig/06-project/project-next.png)
-![Dragging an Issue onto a project board](../fig/06-project/project-created.png)
+![Dragging an Issue onto a project board](fig/06-project/project-new.png)
+![Dragging an Issue onto a project board](fig/06-project/project-next.png)
+![Dragging an Issue onto a project board](fig/06-project/project-created.png)
 
 Finally, we put the issue we just raised onto the project board we just set up:
 
-![Dragging an Issue onto a project board](../fig/06-project/create-issue-next.png)
+![Dragging an Issue onto a project board](fig/06-project/create-issue-next.png)
 
 We've now practised the workflow we identified earlier on a new repository.
 
@@ -105,17 +105,17 @@ branch 'dev' set up to track 'origin/dev'.
 
 Now, we can close our issue as fixed:
 
-![Closing an issue](../fig/06-project/close-issue.png)
+![Closing an issue](fig/06-project/close-issue.png)
 
 Then move it to the **Done** column on our project board:
 
-![Moving an issue to 'Done' on a project board](../fig/06-project/close-issue-project.png)
+![Moving an issue to 'Done' on a project board](fig/06-project/close-issue-project.png)
 
 > ## Solving problems
 > 
 > Now we've got a project board with all our problems in the To Do column, and a `dev` branch to work from, we can set about fixing one of the other issues.
 > 
-> Pick one of your open issues, and fix it using the feature-branch workflow, then once it's done issue a release of your updated `master` branch as we showed in the [Release Management](../04-release/index.html) section!
+> Pick one of your open issues, and fix it using the feature-branch workflow, then once it's done issue a release of your updated `master` branch as we showed in the [Release Management](04-release/index.html) section!
 >
 > > ## Solution
 > >
