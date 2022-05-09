@@ -216,7 +216,9 @@ Not only does having well-structured docstrings (or their equivalents in another
 > >     return kelvin
 > > ~~~
 > > {: .language-python}
-> {: .solution}
+> 
+{: .solution}
+
 {: .challenge}
 
 > ## Help
