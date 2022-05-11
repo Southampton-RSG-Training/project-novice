@@ -41,7 +41,9 @@ Now we've seen all the steps involved in developing sustainable code, let's put 
 > > * Poorly-named variables (e.g. `df47`)
 > > * Poorly-documented functions *(e.g. `plot_bar_charts`)
 > > * Undocumented functions (e.g. `produce_count`)
-> {: .solution}
+> 
+{: .solution}
+
 {: .challenge}
 
 > ## Solving problems
@@ -63,7 +65,9 @@ Now we've seen all the steps involved in developing sustainable code, let's put 
 > > * When `master` is up to date, issue a release on GitHub
 > >
 > > Normally, we wouldn't just merge a branch into `dev` then `dev` straight into `master`- we'd merge several fixes or new features into `dev`, then merge to `master` and make a release. 
-> {: .solution}
+> 
+{: .solution}
+
 {: .challenge}
 
 Now you should have a good idea of the skills and techniques required to manage a project successfully!

@@ -6,6 +6,10 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 {% include gh_variables.html %}
 
+<p>This lesson will cover:</p>
+{% include blurb.html %}
+
+
 > ## Prerequisites
 >
 > This lesson requires a basic knowledge of **Git** and **GitHub** to take part.
