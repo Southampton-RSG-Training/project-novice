@@ -1,6 +1,6 @@
 ---
 title: "Survey"
-slug: Managing Academic Software Development-survey
+slug: project-no-survey
 layout: page
 ---
 
