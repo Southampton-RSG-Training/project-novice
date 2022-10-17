@@ -1,6 +1,6 @@
 ---
 title: "Survey"
-slug: project-no-survey
+slug: project-novice-survey
 layout: page
 ---
 
