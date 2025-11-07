@@ -17,6 +17,16 @@ keypoints:
 
 Whilst managing the development of software is essential to produce good code, managing the **distribution and release** of the software is essential to produce **impact**. If your code can't easily be found, used or worked on by collaborators, then the impact of your development work will be dramatically limited. Fortunately, repository hosting sites like GitHub and GitLab offer a wide range of tools to help.
 
+{: .callout}
+> ## Clarify Contributions
+>
+> Maintaining a transparent record of who contributed what is essential for collaboration and recognition.
+>
+> Tools such as `git blame`, commit histories, and pull requests make it more straightforward to identify individual roles in software and data development.
+>
+> Clear attribution not only supports accountability within the team but also provides verifiable evidence of individual input, which is valuable for REF panels and other research assessments. 
+>
+
 ## Releases
 
 **It is vitally important to cite your software**. Software represents a huge expenditure of research time and energy, that is often invisible due to lack of citation. Many large software projects that underpin whole research communities are run by volunteers, because with no citations the work of the developers behind them is invisible to funders and institutions.
@@ -189,5 +199,5 @@ Which of these types of license you prefer is up to you and those you develop co
 >
 > Once software or data have been released, tracking their reuse provides valuable insight into impact.
 > 
->Monitoring metrics such as GitHub stars, forks, downloads, or formal citations can demonstrate how widely a tool is being adopted. These indicators contribute quantitative evidence for impact case studies and funding reports. Integrating reuse tracking into project management processes helps maintain an overview of how research outputs are used beyond the original project.
+> Monitoring metrics such as GitHub stars, forks, downloads, or formal citations can demonstrate how widely a tool is being adopted. These indicators contribute quantitative evidence for impact case studies and funding reports. Integrating reuse tracking into project management processes helps maintain an overview of how research outputs are used beyond the original project.
 > 
