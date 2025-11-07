@@ -183,3 +183,11 @@ Within the open source licenses, there are two categories, **copyleft** and **pe
 The copyleft licences in the GPL still give a lot of freedom to the end users, but any code that they write based on GPLed code must also be licensed under the same license. This gives the developer assurance that anyone building on their code is also contributing back to the community. It’s actually a little more complicated than this, and the variants all have slightly different conditions and applicability, but this is the core of the license.
 
 Which of these types of license you prefer is up to you and those you develop code with. If you want more information, or help choosing a license, the [Choose An Open-Source License (linked here)](https://choosealicense.com) site can help. 
+
+{: .callout}
+> ## Track and Evidence Software Reuse
+>
+> Once software or data have been released, tracking their reuse provides valuable insight into impact.
+> 
+>Monitoring metrics such as GitHub stars, forks, downloads, or formal citations can demonstrate how widely a tool is being adopted. These indicators contribute quantitative evidence for impact case studies and funding reports. Integrating reuse tracking into project management processes helps maintain an overview of how research outputs are used beyond the original project.
+> 
