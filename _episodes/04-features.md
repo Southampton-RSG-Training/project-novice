@@ -168,6 +168,18 @@ how to cite it, and providing a pre-made BibTex citation.
 >{: .solution}
 {: .challenge}
 
+{: .callout}
+> ## What About Adding Metadata for the Software Itself?
+>
+> Use of the `CITATION.cff` is great for adding metadata for how to cite your code.
+> However, there's also another type of metadata file you can use to describe metadata regarding the software itself named [`codemeta.json`](https://codemeta.github.io/index.html),
+> which is complementary to using a citation file,
+> and provides a format to describe aspects that supoprt software preservation, discovery and reuse.
+> 
+> A `codemeta.json` file has a wider scope than a `CITATION.cff` file,
+> and includes fields to describe the software's licence(s), copyright holders, technical prerequisites and supported platforms, software keywords, software versioning,
+> and descriptions for things like the software's purpose and link to other resources, such as download URLs and continuous integration workflows.
+
 ## Software licensing
  
 Software licensing can be a whole topic in itself, so we’ll just summarise here. Your institution’s Intellectual Property (IP) team will be able to offer specific guidance that fits the way your institution thinks about software.
